@@ -18,6 +18,7 @@ import image13 from "./image/image13.png";
 import image14 from "./image/image14.png";
 import image15 from "./image/image15.png";
 import image16 from "./image/image16.png";
+import image17 from "./image/image17.png";
 
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import { BsFillTelephoneFill } from "react-icons/bs";
@@ -32,7 +33,7 @@ function Main() {
       <Container>
         <PicturContatiner>
           <LogoContainer>
-            <Logo src={logo}></Logo>
+            {/* <Logo src={logo}></Logo> */}
             <Logo2 src={logo2}></Logo2>
           </LogoContainer>
           <Picture src={image1}></Picture>
@@ -51,6 +52,7 @@ function Main() {
           <Picture src={image14}></Picture>
           <Picture src={image15}></Picture>
           <Picture src={image16}></Picture>
+          <Picture src={image17}></Picture>
         </PicturContatiner>
         <ButtonContainer>
           <a href="tel:010-3871-0124">
